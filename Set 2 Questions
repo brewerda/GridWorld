@@ -1,0 +1,18 @@
+1)The instance variable sideLength tells the bug/actor how long each side of the box is and
+how far o go before turning.
+
+2)The instance variable steps tells the bug how many grids/steps it has curently gone on a
+given side length.  Once steps = sidelength, the bug/actor the bug turns 90 degrees.
+
+3)The turn methods is called upon twice so that the bug turns 90 degrees and not 45 to create a square.
+
+4)Move can be called in the BoxBug class because it extends to the actor class and uses any public methods or
+variables in Actor.
+
+5)Yes, as long as the bug is able to create a square, it will move around in order to make a given size square
+and remain that size.
+
+6)Yes, if the front is blocked and the bug has not reached the given sideLength, it will move around the grid in order
+to make the given size box.
+
+7)The value of steps is zero right after the bug has made a 90 degree turn.

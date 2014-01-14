@@ -1,0 +1,45 @@
+1)Yes, the bug will move to a new spot on the world even if it's path is blocked.
+It wil turn until the path is clear and continue to move on the world.
+
+2)The bug always moves forward relative to its location.  The face of the bug acts as
+the front and the direction it will move.
+
+3)If the bug cannot move forward, it rotates to the right by 45 degrees until the front is
+clear for it to continue moving.
+
+4)The bug leaves behind a flower that eventually decays over time.
+
+5)The walls act as barriers that make the bug turn and move a different direction. 
+
+If facing a wall, it will continue to rotate, and if it is not facing the wall, it will continue forward 
+until it hits the next wall.
+
+6)The bug will rotate 45 degrees and try to move out of the way.
+
+7)No, a flower only decays over time.
+
+8)A flower fades/decays over time.
+
+9)A rock does not have any behavior nor does it move. It only acts as a wall.
+
+10)No, only 1 actor can be on a grid at the same time.  If a flower is present however, the bug can move 
+ontop of the flower, estroying it and place a new one.
+
+
+Exercises
+1)0 -- North
+  45 - North-East
+  90 - East
+  135- South East
+  180 - South
+  225 - South West
+  270 - West
+  315 - North West
+  360 - North
+  
+2) You can move the bug to any x,y coordinate on the grid. If you try to move the bug outside of the grid, an
+eror message pops up.
+
+3)You use void setColor() to change the color of an actor.
+
+4)The bug gets squashed under the rock.
