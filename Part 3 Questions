@@ -1,0 +1,28 @@
+Set 3
+1)Location next = loc1.getAdjacentLocation(
+
+2)False
+
+3) (3,5)
+
+4)135
+
+5)It gets the location and direction of the location that is called upon.   loc1.getAdjacentLocation("");
+
+Set 4
+1)By using the getNeighbors() method you can use a for loop to go through each block and count the number of objects near the current location.  By using the getEmptyAdjacentLocations() method, you can run through and figure out all of the empty locations around a given location.
+
+2)getValidAdjacentLocations(9,9)
+
+3)The methods are imported from the appendix.
+
+4)No, because if the objects were returned in an Array, they would be static and unable to change.  In an ArrayList, the positions and values can change automatically at the cost of a slower process.
+
+Set 5
+1) Color, Behavior , and Location
+
+2)Black color facing north
+
+3)Actor was created as a class so that it could be called upon in any other class and would not have to be copied over for each class.
+
+4)You can put in 2 bugs on the grid, however you cannot place 2 bugs ontop of each other. You can remove and replace a bug.
