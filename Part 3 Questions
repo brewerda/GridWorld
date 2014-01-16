@@ -21,8 +21,31 @@ Set 4
 Set 5
 1) Color, Behavior , and Location
 
-2)Black color facing north
+2)Blue color facing north
 
 3)Actor was created as a class so that it could be called upon in any other class and would not have to be copied over for each class.
 
 4)You can put in 2 bugs on the grid, however you cannot place 2 bugs ontop of each other. You can remove and replace a bug.
+
+5)If you call on the turn() method twice, the bug/actor will rotate 90 degrees.
+
+Set 6
+1)The code used to make sure the actor will mot move outside of the grid is: if(gr == null) return false;
+
+2) The code used to see if the neighbor is a rock is: return( neighbor == null) or (neighbor instanceOf Rock);
+
+3)The isValid(Location) method makes sure that the location on the grid exists.
+
+4)expr instanceof Name.
+
+5)if(gr==null) return false    and return(neighbor == null)
+
+6)The bug will turn() until the front is clear and not out of the grid.
+
+7)The location is needed to determine what is in each direction of a given location.
+
+8)They inherit the same color from the actor class
+
+9)No
+10)
+11)
