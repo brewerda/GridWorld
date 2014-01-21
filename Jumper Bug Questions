@@ -1,0 +1,15 @@
+1.
+  a) The Bug will move forward 1 grid and place a flower and then jump.
+  b)The bug will not jump and will turn 90 degrees
+  c)Turn 45 degrees until the fron it clear
+  d)Will not jump
+  e)Program Stops
+  f)
+  
+2.
+  a) Extend Bug
+  b)None
+  c)The Jumper's destination needs to be a valid location without a rock on it and needs to be inside of the grid.
+  d)Override act method and canMove
+  e)We need to add a method to determine if the destination is valid.
+  f)Run it under odd circumstances
