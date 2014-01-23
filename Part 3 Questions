@@ -47,5 +47,5 @@ Set 6
 8)They inherit the same color from the actor class
 
 9)No
-10)The method putSelfInGrid(
-11)
+10)The method flower.putSelfInGrid() adds a flower in the bug's previous location.
+11)4 times 
