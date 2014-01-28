@@ -1,0 +1,28 @@
+
+Set 7
+1) Critters utilize the methods act(), getActors(),processActors(),getMoveLocations(),selectMoveLocations(), and makeMove().
+2)getActors(),processActors(),getMoveLocations(),selectMoveLocations(), and makeMove().
+3)Sub Classes of critters should be able to override getActors() incase actors are made from different locations
+4)Each critter can kill/each another actor, change another actos color, and/or make the other actors move.
+5)Each critter first uses getMoveLocations(), then selectMoveLocations(), and finally uses makeMove() to move locations.
+6)There is no critter constructor because it extends Actor and inherits all constructors from Actor.
+
+
+Set 8
+1)A chameleon reacts differently from a critter without overriding act because it processes actors differently. It has it's own processActors() method.
+2)Chameleon utilized super.makeMove in order to complete all of the processes that a critter does because it does not override the act() method.It will process like a Chameleon first and then act like a critter while moving.
+3)In order to drop a flower, you would have to alter the makeMove() method for the Chameleon.
+4)ChameleonCritter and Critter both process the same actors and therefore would be wasting time and adding in more room for error.
+5)The Actor class contains getLocation() method.
+6)A critter can call getGrid() from the Actor class.
+
+Set 9
+1)CrabCritter processes actors the same way that a Critter does but eats an critter around it. It would make more room for error to rewrite the code.
+2)CrabCritter will eat any actor within 1 grid to it's front,left, or right. All others are left alone.
+3)The method is used to try and find out the path of other critters in order to "hunt" them down.
+4)The Crab can go to the south, east, or west to (4,3), (4,4), and (4,5).
+5)A Crab will only move to it's left or right while a critter can move in all directions.
+6)If the Crab is already in a locatioon given by loc, it will turn and not move.
+7)In processActors(), the CrabCritter will only eat other bugs and actors that are not Critters or Rocks.
+
+
