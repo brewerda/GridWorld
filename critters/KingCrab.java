@@ -1,3 +1,12 @@
+import info.gridworld.actor.Actor;
+import info.gridworld.actor.Critter;
+import info.gridworld.grid.Grid;
+import info.gridworld.grid.Location;
+
+import java.awt.Color;
+import java.util.ArrayList;
+
+
 public class KingCrab extends CrabCritter {
 
 
@@ -23,4 +32,18 @@ public class KingCrab extends CrabCritter {
         a.removeSelfFromGrid();
       }
     }
+  }
+
+  public int distanceFrom(int loc1, int loc2) {
+    int x1 = loc1.getCol();
+    int x2 = loc2.getCol();
+    int y1 = loc1.getRow();
+    int y2 = loc2.getRow();
+
+
+    double result = Math.sqrt( ((x2 - x1) * (x2-x1)) + ((y2-y1) * (y2-y1)));  
+    int finish = (int) result;
+    return finish;
+  }
+}
     
