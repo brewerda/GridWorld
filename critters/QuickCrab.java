@@ -28,7 +28,6 @@ public class QuickCrab extends CrabCritter {
    return locs;
   }
    
-
    public void checkTwoAway(ArrayList<Location> locs, int direction) {
      
      
@@ -36,9 +35,9 @@ public class QuickCrab extends CrabCritter {
      Location original = getLocation();
      Location temp = original.getAdjacentLocation(direction);
         if(grid.isValid(temp) && grid.get(temp) == null) {
-     Location temp2 = temp.getAdjacentLocation(direction);
-     if(grid.isValid(temp2) && grid.get(temp2) == null) {
-       locs.add(temp2);
+            Location temp2 = temp.getAdjacentLocation(direction);
+            if(grid.isValid(temp2) && grid.get(temp2) == null) {
+              locs.add(temp2);
      }
    }
    }
